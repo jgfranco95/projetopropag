@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Login | Propag</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1>PROPAG</h1>
+    </div>
+    
+    <header class="header">
+        <img class="colorTheme" src="img/lua.png" id="icone" alt="lua/sol" onclick="mudarTema()">
+    </header>
+
+    <section class="cadastro">
+
+        <section class="imagens">
+            <img src="img/azul.png" alt="mancha_vermelha" id="mancha" class="img3" width="40%">
+            <img src="img/bus_login.webp" alt="desenho de onibus" id="onibus" class="img3" width="25%">
+            <img src="img/4de065cb018cb642a83857e147e85f7e.png" alt="sol" id="sol_lua" class="img3">        
+        </section>
+
+        <form class="formulario">
+            <header class="cadastre-se">
+                <h2>LOGIN</h2>
+            </header>
+
+            <div class="inputs">
+                <input type="email" name="email" id="email" placeholder="E-mail" class="input_cadastro" required maxlength="50"/><br>
+                <input type="password" name="senha" id="senha" placeholder="Senha" class="input_cadastro" required minlength="6" maxlength="20"/><br>
+                <input type="submit" value="ACESSAR" id="botao"/>
+            </div>
+        </form>
+    </section>
+
+    <script src="js/login.js"></script>
+</body>
+</html>
